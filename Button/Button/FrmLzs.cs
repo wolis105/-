@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace Button
 {
-    public partial class Form1 : Form
+    public partial class FrmLzs : Form
     {
-        public Form1()
+        public FrmLzs()
         {
             InitializeComponent();
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            FrmLzs f = new FrmLzs();
-            this.Hide();
-            f.ShowDialog();
-            this.Show();
         }
     }
 }
