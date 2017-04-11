@@ -41,5 +41,13 @@ namespace Button
             this.Show();
             this.Activate();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            FrmLL f = new FrmLL();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
+        }
     }
 }

@@ -52,6 +52,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmLL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLL.Designer.cs">
+      <DependentUpon>FrmLL.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmLzs.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,9 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLL.resx">
+      <DependentUpon>FrmLL.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLzs.resx">
       <DependentUpon>FrmLzs.cs</DependentUpon>
@@ -104,6 +113,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="NewFolder1\01.jpg" />
     <Content Include="NewFolder1\timg.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
