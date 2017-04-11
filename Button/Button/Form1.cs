@@ -24,5 +24,14 @@ namespace Button
             f.ShowDialog();
             this.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FrmTongX frm = new FrmTongX();
+            this.Hide();
+            frm.ShowDialog();
+            this.Show();
+            this.Activate();
+        }
     }
 }
