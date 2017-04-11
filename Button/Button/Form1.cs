@@ -17,6 +17,14 @@ namespace Button
             InitializeComponent();
         }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+            FrmLzs f = new FrmLzs();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
+        }
+
         private void btnShow_Click(object sender, EventArgs e)
         {
             FrmShow f = new FrmShow();
